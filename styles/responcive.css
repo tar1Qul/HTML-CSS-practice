@@ -1,0 +1,120 @@
+
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-content {
+        width: 100%;
+        margin: 150px auto 100px auto;
+        padding: 0 20px;
+    }
+
+    .action-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .action-left,
+    .action-right {
+        max-width: 100%;
+    }
+
+    .review-grid {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-left {
+        font-size: 50px;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-logo h2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .action-left h1 {
+        font-size: 28px;
+    }
+
+    .action-left p {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .productive-wrapper h2 {
+        font-size: 28px;
+    }
+
+    .stat-item .number {
+        font-size: 50px;
+    }
+
+    .better-focus h1 {
+        font-size: 32px;
+    }
+
+    .review-card h3 {
+        font-size: 20px;
+    }
+
+    .review-card p {
+        font-size: 14px;
+    }
+
+    .cta-btn,
+    .focus-btn,
+    .signup-btn,
+    .action-left button,
+    .contact-right button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .overflow-image img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .contact-left {
+        font-size: 36px;
+    }
+
+    .footer-logo h2 {
+        font-size: 36px;
+    }
+
+    .tagline {
+        font-size: 14px;
+    }
+
+    nav.nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav a {
+        margin: 5px 0;
+    }
+}
