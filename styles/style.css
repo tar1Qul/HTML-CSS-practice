@@ -1,0 +1,467 @@
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 40px 20px;
+}
+
+
+.bg-image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.bg-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-wrapper,
+.banner-content {
+    position: relative;
+    z-index: 2;
+}
+
+.banner-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #00bfff;
+    font-size: 2.125rem;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+
+
+}
+
+.signup-btn {
+    background-color: #00bfff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 0px 5px 1px #0000002b;
+}
+
+.signup-btn:hover {
+    background-color: #008ecc;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.6);
+    transform: translateY(-5px);
+}
+
+
+
+.main-content {
+    width: 905px;
+    text-align: center;
+    margin: 250px auto 200px auto;
+}
+
+.main-content h1 {
+    font-size: 4.0625rem;
+    margin-bottom: 30px;
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+}
+
+.focus-btn {
+    background-color: #00bfff;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px 1px #00000066;
+}
+
+.focus-btn:hover {
+    background-color: #008ecc;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.6);
+    transform: translateY(-5px);
+}
+
+
+.action-wrapper {
+    margin: 0 auto;
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 60px 20px;
+    color: #000000;
+}
+
+.action-left {
+    max-width: 50%;
+}
+
+.action-left h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    color: black;
+}
+
+.action-left p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-family: 'Raleway';
+    color: #2524329c;
+    width: 85%;
+}
+
+.action-left button {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 0px 5px 1px #0000006b;
+}
+
+.action-left button:hover {
+    background-color: #0099cc;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.6);
+    transform: translateY(-5px);
+}
+
+.right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.action-right img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 45%);
+}
+
+
+.productive-wrapper {
+    background-color: #f2efff;
+    padding: 60px 20px;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #2c2c2c;
+    text-align: center;
+}
+
+.productive-wrapper h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    margin: 10px 0 60px 0;
+    font-weight: bold;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    flex: 1 1 200px;
+}
+
+.stat-item .number {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Inter';
+    color: #5b3ec1;
+}
+
+.stat-item .label {
+    font-size: 20px;
+    color: #666;
+    margin-top: 8px;
+    font-family: 'Inter';
+}
+
+
+.reviews-section {
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    padding: 60px 0;
+}
+
+.reviews-title {
+    font-size: 42px;
+    margin-bottom: 40px;
+    color: #5b3ec1;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+
+.review-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.review-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    flex: 1;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.review-card .stars {
+    color: #f5c518;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.review-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #5b3ec1;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+.reviewer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.reviewer span .date {
+    font-size: 14px;
+    color: black;
+}
+
+
+.better-focus {
+    background-color: #ece9ff;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.better-focus h1 {
+    font-size: 50px;
+    color: #5b3ec1;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+
+.cta-btn {
+    background-color: #5b3ec1;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px !important;
+    transition: background-color 0.3s ease;
+    margin: 20px 0;
+    font-family: 'Raleway' !important;
+    box-shadow: 0px 0px 5px 1px #000000a3;
+}
+
+.cta-btn:hover {
+    background-color: #472b9e;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.6);
+    transform: translateY(-5px);
+}
+
+.overflow-image img {
+    width: 90%;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.contact-left {
+    flex: 1;
+    font-size: 97px;
+    font-weight: bold;
+    color: #4a4aff;
+    padding-right: 40px;
+    font-family: "Raleway", sans-serif;
+}
+
+.contact-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-right label {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 6px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.contact-right input,
+.contact-right textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    resize: vertical;
+}
+
+.contact-right button {
+    padding: 12px;
+    background-color: #4a4aff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-right button:hover {
+    background-color: #3a3ae6;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.6);
+    transform: translateY(-5px);
+}
+
+.footer-wrapper {
+    width: 100%;
+    margin: 80px auto;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+.footer-logo h2 {
+    font-size: 100px;
+    color: #4a4aff;
+    font-weight: bold;
+    font-family: 'Inter';
+    margin: auto;
+    margin: 20px 0;
+}
+
+.tagline {
+    font-size: 1rem;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #4a4aff;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #2f2fff;
+}
+
+nav.nav ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav a {
+    margin: 0px 15px;
+    text-decoration: none;
+}
